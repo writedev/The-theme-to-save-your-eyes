@@ -6,8 +6,8 @@ if (w === 3) {
 
 const z = 5;
 
-if (w === null) {
+if (z === null) {
   console.log("w is null");
-} else if (w === Number.NaN) {
+} else if (z === Number.NaN) {
   console.log("w is not a number");
 }
