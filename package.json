@@ -1,6 +1,21 @@
 {
-  "dependencies": {
-    "generator-code": "^1.11.4",
-    "yo": "^5.0.0"
+  "name": "The-theme-to-save-your-eyes",
+  "displayName": "To save your eyes",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "The beautiful light theme",
+        "uiTheme": "vs",
+        "path": "./themes/The beautiful light theme-color-theme.json"
+      }
+    ]
   }
 }
