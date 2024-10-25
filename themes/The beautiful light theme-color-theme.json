@@ -195,6 +195,30 @@
       "settings": {
         "foreground": "#4078f2"
       }
+    },
+    {
+      "scope": "variable.other.readwrite",
+      "settings": {
+        "foreground": "#4caf50" // Exemple : Vert
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#ff9800" // Exemple : Orange
+      }
+    },
+    {
+      "scope": "meta.function-call meta.function-call",
+      "settings": {
+        "foreground": "#8e44ad" // Exemple : Violet foncé
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#03a9f4" // Exemple : Bleu clair
+      }
     }
   ]
 }
